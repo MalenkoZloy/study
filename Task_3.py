@@ -5,17 +5,17 @@
 # 3.Во время получения данных от пользователя добавляйте в словари ключи с значениями согласно тому, что ввел пользователь
 # 4. Выведите результирубщий соварь в терминал
 
-my_dict = {}
+my_dict = {} # 1
 
 def dict_create():
-    key = input("Скажи свой ключ: ")
-    meaning = input("Скажи свое значение:")
-    my_dict[key] = meaning
+    key = input("Скажи свой ключ: ") # 2
+    meaning = input("Скажи свое значение:") # 2
+    my_dict[key] = meaning # 3
 
 
-dict_create()
-dict_create()
-dict_create()
+dict_create() # 2
+dict_create() # 2
+dict_create() # 2
 
-print(my_dict)
+print(my_dict) # 4
 
