@@ -1,19 +1,19 @@
-# Заача 2
+# Задача 2
 # 1. Создайте два списка
 # 2. Обьедините два списка, используя оператор +
 # 3. Определите, какой магический метод списков вызывается при использовании оператора +
-# 4. Выполните слияние списоков, используя этот магический метод
+# 4. Выполните слияние списков, используя этот магический метод
 # 5. Результат выведите в терминал
 
-one_list =['q', 'w', 'e', 't', 'y'] # 1
-two_list = [1, 2, 3] # 1
+one_list = ['q', 'w', 'e', 't', 'y']  # 1
+two_list = [1, 2, 3]  # 1
 
-new_list = one_list + two_list # 2
+new_list = one_list + two_list  # 2
 
 # print(help(new_list.)) # 3
 
-new_list_2 = one_list.__add__(two_list) # 4
+new_list_2 = one_list.__add__(two_list)  # 4
 
-print(new_list_2) # 5
+print(new_list_2)  # 5
 
-print(one_list.__add__(two_list)) # 4 # 5
+print(one_list.__add__(two_list))  # 4 # 5

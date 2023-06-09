@@ -7,15 +7,15 @@
 # 6. Расширьте первый список элементами второго списка
 # 7. Выведите в терминал расширенный список из 6 элементов
 
-my_list = ['Hey', 12, True, 12.5, "new hey"] # 1
-del my_list[2] # 2
+my_list = ['Hey', 12, True, 12.5, "new hey"]  # 1
+del my_list[2]  # 2
 
-print(len(my_list)) # 3
+print(len(my_list))  # 3
 
-my_list.reverse() # 4
+my_list.reverse()  # 4
 
-new_my_list = ['bro', 1993] # 5
+new_my_list = ['bro', 1993]  # 5
 
-new_double_list = my_list + new_my_list # 6
+new_double_list = my_list + new_my_list  # 6
 
-print(new_double_list) # 7
+print(new_double_list)  # 7
