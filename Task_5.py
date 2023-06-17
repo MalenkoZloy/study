@@ -6,12 +6,12 @@
 # 5. Вызовите функцию, передав ей два списка в качестве аргументов
 # 6. Выведите результат вызова функции в терминал
 
-def merge_lists_to_dict(list1, list2):
+def merge_lists_to_dict(list1, list2):  # 1. 2.
     my_dict = []
-    my_dict = dict(zip(list1, list2))
+    my_dict = dict(zip(list1, list2))  # 3. 4.
     return my_dict
 
 
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
-print(merge_lists_to_dict(list1, list2))
+list1 = [1, 2, 3]  # 5
+list2 = [4, 5, 6]  # 5
+print(merge_lists_to_dict(list1, list2))  # 6
