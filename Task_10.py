@@ -1,6 +1,4 @@
-
 box = {'speed': 55.123, 'time': 100.500}
-
 
 
 def route_info(**new_box):
@@ -20,7 +18,6 @@ def route_info(**new_box):
             return f"{speed} и {time} не целочисленные числа"
         elif speed % 1 != 0:
             return f"{speed} является не целочисленным числом"
-
         elif time % 1 != 0:
             return f"{time} является не целочисленным числом"
 
