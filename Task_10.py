@@ -1,3 +1,12 @@
+# Задача 10
+# 1.Создайте функцию route info, которой будет передаваться словарь.
+# 2. Если в словаре есть ключ distance и его значение - целое число, верните строку "Distance to your
+# destination is «distances"
+# 3. Иначе, если в словаре есть ключи speed и time, верните
+# строку "Distance to your destination is «speed " time›"
+# 4. Иначе верните строку "No distance info is available
+
+
 box = {'speed': 55.123, 'time': 100.500}
 
 
